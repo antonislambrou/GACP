@@ -1,0 +1,1 @@
+./ecp data_set $1 gens $2 pop_size $3 rules $4 output $5

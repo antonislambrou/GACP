@@ -1,0 +1,8 @@
+Fold 0, example 0
+ 0: 0.0058
+ 1: 0.8249
+Actual class: 2, Prediction 2, Confidence 0.99 Credibility: 0.82
+Fold 0, example 0
+ 0: 0.0058
+ 1: 0.8093
+Actual class: 2, Prediction 2, Confidence 0.99 Credibility: 0.81
