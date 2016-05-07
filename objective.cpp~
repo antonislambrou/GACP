@@ -50,10 +50,7 @@ float Objective(GAGenome& g)
 			
 		}
 		weight = max;
-		if(weight <= 0)
-			weight = 0.1e-16;
-		if(weight >= 1)
-			weight = 0.999999;
+		
 			
 		if(train_set[x][attributes] == c)
 		{

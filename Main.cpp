@@ -51,7 +51,6 @@ int main(int argc, char **argv)
 
 	GAGenome *h;
 
-	/* LAST MINUTE CHANGES */
 	int correct[6][FOLDS];
 	int **certaint1;
 	int **err1;
@@ -162,12 +161,12 @@ int main(int argc, char **argv)
 		GASteadyStateGA ga(genome);
 		ga.terminator(GAGeneticAlgorithm::TerminateUponConvergence);
 		ga.parameters(params);
-		ga.pConvergence(0.99999);
-  		ga.nConvergence(200);
+		ga.pConvergence(1);
+  		ga.nConvergence(50);
   				
-		ga.pReplacement(0.8);
-		ga.pMutation(0.02);
-		ga.pCrossover(0.8);
+		ga.pReplacement(0.9);
+		ga.pMutation(0.01);
+		ga.pCrossover(0.9);
 
 		
 		char stats[32];

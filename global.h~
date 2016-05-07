@@ -1,6 +1,6 @@
 #ifndef GLOBAL_H
 #define GLOBAL_H
-#define classes 3
+#define classes 2
 #define FOLDS 10
 #define fuzzysets 5
 extern int trainx;
