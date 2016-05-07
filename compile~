@@ -1,2 +1,0 @@
-g++ -o ecp -Iga/ Main.cpp aux.cpp allocate2D.cpp certainty.cpp errorf.cpp getArgs.cpp global.cpp membership.cpp objective.cpp pvalue.cpp readData.cpp discrete.cpp varXover.cpp varInit.cpp -lga
-

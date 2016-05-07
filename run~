@@ -1,1 +1,0 @@
-./Prog data_set data/breast_norm1.dat gens 50 pop_size 50 rules 1
